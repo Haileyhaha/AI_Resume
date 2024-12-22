@@ -1,5 +1,5 @@
 import { SignInButton, UserButton, useClerk, useUser } from '@clerk/clerk-react';
-import logo3 from '../assets/logo3.png';
+import logo from '../assets/portpoliologo.png';
 import { 
     NavbarContainer,
     NavbarContent,
@@ -17,7 +17,7 @@ const Navbar: React.FC = () =>{
         <NavbarContainer>
             <NavbarContent>
                 <Logo>
-                    <img src={logo3} alt='Logo'/>
+                    <img src={logo} alt='Logo'/>
                 </Logo>
                 <MenuLinks>
                     <a href='/home'>Home</a>

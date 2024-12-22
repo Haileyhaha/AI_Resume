@@ -32,7 +32,7 @@ const History:React.FC= () => {
     },[])
 
     const viewPDF = (filePath :string) => {
-        const pdfUrl = `${import.meta.env.VITE_BACKEND_URL}/view-resume?filePath=${encodeURIComponent}`
+        const pdfUrl = `${import.meta.env.VITE_BACKEND_URL}/view-resume?filePath=${encodeURIComponent(filePath)}`;
         window.open(pdfUrl, '_blank');
     }
 

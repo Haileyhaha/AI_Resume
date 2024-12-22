@@ -11,6 +11,7 @@ import {
 } from "../styles/AppStyles"
 import Toolbar from "./Toolbar";
 
+
 interface ResumeContatinerProps{
     response:any;
     includeCoverLetter: boolean;
@@ -26,6 +27,8 @@ const ResumeDetails: React.FC<ResumeContatinerProps> = ({
     editableContent ,
     handleDownload,
 }) => {
+    console.log(response)
+
     const [toolbarVisible, setToolbarVisible] = useState(false);
     const [toolbarPosition, setToolbarPosition] = useState({top:0 , left:0})
     const [selectedText, setSelectedText] = useState<string | null>(null);

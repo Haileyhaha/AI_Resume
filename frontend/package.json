@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.21.0",
+    "@react-three/drei": "^9.120.4",
+    "@react-three/fiber": "^8.17.10",
     "axios": "^1.7.9",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.2",
